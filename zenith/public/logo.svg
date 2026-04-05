@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 48" fill="none">
+  <g>
+    <!-- Mountain peak icon -->
+    <path d="M4 40L20 8L28 22L36 8L52 40H4Z" fill="#7C3AED"/>
+    <path d="M20 8L28 22L36 8L28 16L20 8Z" fill="#6D28D9"/>
+    <!-- Wordmark -->
+    <text x="68" y="36" font-family="sans-serif" font-weight="900" font-size="32" letter-spacing="8" fill="#F5F5F7">ZENITH</text>
+  </g>
+</svg>

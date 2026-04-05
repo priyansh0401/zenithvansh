@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: zenith-app
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: node .next/standalone/server.js
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_PUBLIC_APP_NAME
+        value: ZENITH
